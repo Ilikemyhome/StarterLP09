@@ -145,7 +145,7 @@ Verifying that a reservation from July 1 to July 2 is billed as exactly one nigh
 | TC-04	       | Each guest over five costs an additional $25 per night | Dates are available| Create reservation for 2 nights with 6 guests|	Reservation accepted. Total cost = $500 ($400 + $50 cleaning fee + $50 guest surcharge) | AI-generated and verified |
 | TC-05	       | Check-in date must occur before checkout date   | Dates are available | Set check-in date equal to checkout date |	Error message displayed because check-in must occur before checkout	| Human-generated |
 | TC-06	       | Checkout date is not counted as a reserved night| Dates are available | Check-in July 1, checkout July 2, 1 guest |	Reservation counted as exactly 1 night. Total cost = $250	| AI-generated and revised |
-| TC-07	       | All requested nights must be available	Selected dates contain at least one unavailable night |	Attempt reservation	| Unavailable error message displayed	| AI-generated and verified |
+| TC-07	       | All requested nights must be available          |	Selected dates contain at least one unavailable night |	Attempt reservation	| Unavailable error message displayed	| AI-generated and verified |
 
 ## Step 7: Reflect on Human and AI Responsibilities
 
